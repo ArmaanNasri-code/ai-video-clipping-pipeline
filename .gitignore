@@ -1,0 +1,46 @@
+# --- never commit secrets ---
+.env
+*.env
+.twitch_keys
+*_keys*
+*secret*
+credentials*.json
+
+# --- media, models, data, outputs ---
+*.mp4
+*.mov
+*.mkv
+*.ts
+*.m3u8
+*.wav
+*.mp3
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.pt
+*.onnx
+*.pth
+*.pkl
+*.npy
+*.db
+*.sqlite
+*_final_review/
+*_tracklets_run/
+batch_runs/
+post_queue/
+nightly_logs/
+refinish_logs/
+streamer_refs/
+target_reference_*.json
+eval_set/
+backgrounds/
+split_previews/
+*.log
+
+# --- python / os ---
+__pycache__/
+*.pyc
+.venv/
+*_env/
+.DS_Store

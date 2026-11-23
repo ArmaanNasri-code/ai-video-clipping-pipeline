@@ -1,0 +1,22 @@
+# Core
+anthropic
+groq
+requests
+numpy
+opencv-python
+yt-dlp
+
+# Tracking / vision
+ultralytics          # YOLO + ByteTrack
+insightface          # face embeddings (default backend)
+onnxruntime
+face_recognition     # alternative face backend (dlib)
+torch                # OSNet re-identification
+
+# Audio
+silero-vad
+
+# Analysis
+matplotlib
+
+# System: ffmpeg and ffprobe must be installed separately (e.g. `brew install ffmpeg`)
